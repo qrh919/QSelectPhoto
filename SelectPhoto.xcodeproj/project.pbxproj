@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B5A688218D9F0300E259C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5A687218D9F0300E259C0 /* AppDelegate.m */; };
+		10B5A68B218D9F0300E259C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5A68A218D9F0300E259C0 /* ViewController.m */; };
+		10B5A68E218D9F0300E259C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B5A68C218D9F0300E259C0 /* Main.storyboard */; };
+		10B5A690218D9F0800E259C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B5A68F218D9F0800E259C0 /* Assets.xcassets */; };
+		10B5A693218D9F0800E259C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B5A691218D9F0800E259C0 /* LaunchScreen.storyboard */; };
+		10B5A696218D9F0800E259C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5A695218D9F0800E259C0 /* main.m */; };
+		10B5A69F218DA0EA00E259C0 /* SelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5A69E218DA0EA00E259C0 /* SelectRootViewController.m */; };
+		1FAA9BB2F96C98B7FF9A4C6F /* libPods-SelectPhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D0CBEF88C1D14670050D86 /* libPods-SelectPhoto.a */; };
+		2E06E5BB219570B5004EA076 /* SPImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5A4219570B5004EA076 /* SPImageCropManager.m */; };
+		2E06E5BC219570B5004EA076 /* SPAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5A6219570B5004EA076 /* SPAssetCell.m */; };
+		2E06E5BD219570B5004EA076 /* SPAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5A7219570B5004EA076 /* SPAssetModel.m */; };
+		2E06E5BE219570B5004EA076 /* NSBundle+SPImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5A8219570B5004EA076 /* NSBundle+SPImagePicker.m */; };
+		2E06E5BF219570B5004EA076 /* UIView+SPLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5AB219570B5004EA076 /* UIView+SPLayout.m */; };
+		2E06E5C0219570B5004EA076 /* SPPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5AC219570B5004EA076 /* SPPhotoPreviewController.m */; };
+		2E06E5C1219570B5004EA076 /* SPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5AD219570B5004EA076 /* SPProgressView.m */; };
+		2E06E5C2219570B5004EA076 /* SPImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5AF219570B5004EA076 /* SPImageManager.m */; };
+		2E06E5C3219570B5004EA076 /* SPPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5B1219570B5004EA076 /* SPPhotoPickerController.m */; };
+		2E06E5C4219570B5004EA076 /* SPPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5B2219570B5004EA076 /* SPPhotoPreviewCell.m */; };
+		2E06E5C5219570B5004EA076 /* SPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5B7219570B5004EA076 /* SPImagePickerController.m */; };
+		2E06E5C6219570B5004EA076 /* SPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06E5B8219570B5004EA076 /* SPLocationManager.m */; };
+		2E06E5C7219570B5004EA076 /* SPImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E06E5B9219570B5004EA076 /* SPImagePickerController.bundle */; };
+		2EFD3B352194124F000B5A0C /* SPCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B342194124F000B5A0C /* SPCropView.m */; };
+		2EFD3B3821943333000B5A0C /* SPNavToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B3721943333000B5A0C /* SPNavToolBar.m */; };
+		2EFD3B3B219448FD000B5A0C /* SelectSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B3A219448FD000B5A0C /* SelectSuccessViewController.m */; };
+		2EFD3B3E21944D84000B5A0C /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B3D21944D84000B5A0C /* LxGridViewFlowLayout.m */; };
+		2EFD3B4121944F6A000B5A0C /* SelectSuccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B4021944F6A000B5A0C /* SelectSuccessCell.m */; };
+		2EFD3B4421951935000B5A0C /* SPBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3B4321951935000B5A0C /* SPBottomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B5A683218D9F0300E259C0 /* SelectPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B5A686218D9F0300E259C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10B5A687218D9F0300E259C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10B5A689218D9F0300E259C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10B5A68A218D9F0300E259C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10B5A68D218D9F0300E259C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10B5A68F218D9F0800E259C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B5A692218D9F0800E259C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10B5A694218D9F0800E259C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B5A695218D9F0800E259C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10B5A69D218DA0EA00E259C0 /* SelectRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectRootViewController.h; sourceTree = "<group>"; };
+		10B5A69E218DA0EA00E259C0 /* SelectRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectRootViewController.m; sourceTree = "<group>"; };
+		2E06E5A2219570B5004EA076 /* SPPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoPreviewCell.h; sourceTree = "<group>"; };
+		2E06E5A3219570B5004EA076 /* SPPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoPickerController.h; sourceTree = "<group>"; };
+		2E06E5A4219570B5004EA076 /* SPImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPImageCropManager.m; sourceTree = "<group>"; };
+		2E06E5A5219570B5004EA076 /* SPImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPImageManager.h; sourceTree = "<group>"; };
+		2E06E5A6219570B5004EA076 /* SPAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAssetCell.m; sourceTree = "<group>"; };
+		2E06E5A7219570B5004EA076 /* SPAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAssetModel.m; sourceTree = "<group>"; };
+		2E06E5A8219570B5004EA076 /* NSBundle+SPImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SPImagePicker.m"; sourceTree = "<group>"; };
+		2E06E5A9219570B5004EA076 /* SPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLocationManager.h; sourceTree = "<group>"; };
+		2E06E5AA219570B5004EA076 /* SPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPImagePickerController.h; sourceTree = "<group>"; };
+		2E06E5AB219570B5004EA076 /* UIView+SPLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SPLayout.m"; sourceTree = "<group>"; };
+		2E06E5AC219570B5004EA076 /* SPPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoPreviewController.m; sourceTree = "<group>"; };
+		2E06E5AD219570B5004EA076 /* SPProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPProgressView.m; sourceTree = "<group>"; };
+		2E06E5AE219570B5004EA076 /* SPAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAssetCell.h; sourceTree = "<group>"; };
+		2E06E5AF219570B5004EA076 /* SPImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPImageManager.m; sourceTree = "<group>"; };
+		2E06E5B0219570B5004EA076 /* SPImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPImageCropManager.h; sourceTree = "<group>"; };
+		2E06E5B1219570B5004EA076 /* SPPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoPickerController.m; sourceTree = "<group>"; };
+		2E06E5B2219570B5004EA076 /* SPPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoPreviewCell.m; sourceTree = "<group>"; };
+		2E06E5B3219570B5004EA076 /* NSBundle+SPImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SPImagePicker.h"; sourceTree = "<group>"; };
+		2E06E5B4219570B5004EA076 /* SPAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAssetModel.h; sourceTree = "<group>"; };
+		2E06E5B5219570B5004EA076 /* SPPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoPreviewController.h; sourceTree = "<group>"; };
+		2E06E5B6219570B5004EA076 /* UIView+SPLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SPLayout.h"; sourceTree = "<group>"; };
+		2E06E5B7219570B5004EA076 /* SPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPImagePickerController.m; sourceTree = "<group>"; };
+		2E06E5B8219570B5004EA076 /* SPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLocationManager.m; sourceTree = "<group>"; };
+		2E06E5B9219570B5004EA076 /* SPImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SPImagePickerController.bundle; sourceTree = "<group>"; };
+		2E06E5BA219570B5004EA076 /* SPProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProgressView.h; sourceTree = "<group>"; };
+		2EFD3AF2219328ED000B5A0C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2EFD3B332194124F000B5A0C /* SPCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPCropView.h; sourceTree = "<group>"; };
+		2EFD3B342194124F000B5A0C /* SPCropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPCropView.m; sourceTree = "<group>"; };
+		2EFD3B3621943333000B5A0C /* SPNavToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPNavToolBar.h; sourceTree = "<group>"; };
+		2EFD3B3721943333000B5A0C /* SPNavToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPNavToolBar.m; sourceTree = "<group>"; };
+		2EFD3B39219448FD000B5A0C /* SelectSuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSuccessViewController.h; sourceTree = "<group>"; };
+		2EFD3B3A219448FD000B5A0C /* SelectSuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSuccessViewController.m; sourceTree = "<group>"; };
+		2EFD3B3C21944D84000B5A0C /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		2EFD3B3D21944D84000B5A0C /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		2EFD3B3F21944F6A000B5A0C /* SelectSuccessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSuccessCell.h; sourceTree = "<group>"; };
+		2EFD3B4021944F6A000B5A0C /* SelectSuccessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSuccessCell.m; sourceTree = "<group>"; };
+		2EFD3B4221951935000B5A0C /* SPBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBottomView.h; sourceTree = "<group>"; };
+		2EFD3B4321951935000B5A0C /* SPBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBottomView.m; sourceTree = "<group>"; };
+		34D0CBEF88C1D14670050D86 /* libPods-SelectPhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelectPhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D773ED5C4BDDCFB44CE423 /* Pods-SelectPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelectPhoto/Pods-SelectPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		8FBA89CA74DB8E706650379C /* Pods-SelectPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelectPhoto/Pods-SelectPhoto.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B5A680218D9F0300E259C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA9BB2F96C98B7FF9A4C6F /* libPods-SelectPhoto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B5A67A218D9F0300E259C0 = {
+			isa = PBXGroup;
+			children = (
+				10B5A685218D9F0300E259C0 /* SelectPhoto */,
+				10B5A684218D9F0300E259C0 /* Products */,
+				F98DC259B2E236AE8B0B0AAC /* Pods */,
+				87061100754585224F1593CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10B5A684218D9F0300E259C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B5A683218D9F0300E259C0 /* SelectPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B5A685218D9F0300E259C0 /* SelectPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				10B5A69C218DA0C400E259C0 /* SelectPhoto */,
+				10B5A686218D9F0300E259C0 /* AppDelegate.h */,
+				10B5A687218D9F0300E259C0 /* AppDelegate.m */,
+				10B5A689218D9F0300E259C0 /* ViewController.h */,
+				10B5A68A218D9F0300E259C0 /* ViewController.m */,
+				10B5A68C218D9F0300E259C0 /* Main.storyboard */,
+				10B5A68F218D9F0800E259C0 /* Assets.xcassets */,
+				10B5A691218D9F0800E259C0 /* LaunchScreen.storyboard */,
+				10B5A694218D9F0800E259C0 /* Info.plist */,
+				10B5A695218D9F0800E259C0 /* main.m */,
+				2EFD3AF2219328ED000B5A0C /* PrefixHeader.pch */,
+			);
+			path = SelectPhoto;
+			sourceTree = "<group>";
+		};
+		10B5A69C218DA0C400E259C0 /* SelectPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				2E06E5A1219570B5004EA076 /* SPImagePickerController */,
+				10B5A69D218DA0EA00E259C0 /* SelectRootViewController.h */,
+				10B5A69E218DA0EA00E259C0 /* SelectRootViewController.m */,
+				2EFD3B39219448FD000B5A0C /* SelectSuccessViewController.h */,
+				2EFD3B3A219448FD000B5A0C /* SelectSuccessViewController.m */,
+				2EFD3B3F21944F6A000B5A0C /* SelectSuccessCell.h */,
+				2EFD3B4021944F6A000B5A0C /* SelectSuccessCell.m */,
+				2EFD3B3C21944D84000B5A0C /* LxGridViewFlowLayout.h */,
+				2EFD3B3D21944D84000B5A0C /* LxGridViewFlowLayout.m */,
+				2EFD3B3621943333000B5A0C /* SPNavToolBar.h */,
+				2EFD3B3721943333000B5A0C /* SPNavToolBar.m */,
+				2EFD3B332194124F000B5A0C /* SPCropView.h */,
+				2EFD3B342194124F000B5A0C /* SPCropView.m */,
+				2EFD3B4221951935000B5A0C /* SPBottomView.h */,
+				2EFD3B4321951935000B5A0C /* SPBottomView.m */,
+			);
+			path = SelectPhoto;
+			sourceTree = "<group>";
+		};
+		2E06E5A1219570B5004EA076 /* SPImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				2E06E5AA219570B5004EA076 /* SPImagePickerController.h */,
+				2E06E5B7219570B5004EA076 /* SPImagePickerController.m */,
+				2E06E5A3219570B5004EA076 /* SPPhotoPickerController.h */,
+				2E06E5B1219570B5004EA076 /* SPPhotoPickerController.m */,
+				2E06E5B5219570B5004EA076 /* SPPhotoPreviewController.h */,
+				2E06E5AC219570B5004EA076 /* SPPhotoPreviewController.m */,
+				2E06E5A2219570B5004EA076 /* SPPhotoPreviewCell.h */,
+				2E06E5B2219570B5004EA076 /* SPPhotoPreviewCell.m */,
+				2E06E5A9219570B5004EA076 /* SPLocationManager.h */,
+				2E06E5B8219570B5004EA076 /* SPLocationManager.m */,
+				2E06E5B0219570B5004EA076 /* SPImageCropManager.h */,
+				2E06E5A4219570B5004EA076 /* SPImageCropManager.m */,
+				2E06E5A5219570B5004EA076 /* SPImageManager.h */,
+				2E06E5AF219570B5004EA076 /* SPImageManager.m */,
+				2E06E5AE219570B5004EA076 /* SPAssetCell.h */,
+				2E06E5A6219570B5004EA076 /* SPAssetCell.m */,
+				2E06E5B4219570B5004EA076 /* SPAssetModel.h */,
+				2E06E5A7219570B5004EA076 /* SPAssetModel.m */,
+				2E06E5BA219570B5004EA076 /* SPProgressView.h */,
+				2E06E5AD219570B5004EA076 /* SPProgressView.m */,
+				2E06E5B3219570B5004EA076 /* NSBundle+SPImagePicker.h */,
+				2E06E5A8219570B5004EA076 /* NSBundle+SPImagePicker.m */,
+				2E06E5B6219570B5004EA076 /* UIView+SPLayout.h */,
+				2E06E5AB219570B5004EA076 /* UIView+SPLayout.m */,
+				2E06E5B9219570B5004EA076 /* SPImagePickerController.bundle */,
+			);
+			path = SPImagePickerController;
+			sourceTree = "<group>";
+		};
+		87061100754585224F1593CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D0CBEF88C1D14670050D86 /* libPods-SelectPhoto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98DC259B2E236AE8B0B0AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73D773ED5C4BDDCFB44CE423 /* Pods-SelectPhoto.debug.xcconfig */,
+				8FBA89CA74DB8E706650379C /* Pods-SelectPhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B5A682218D9F0300E259C0 /* SelectPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B5A699218D9F0800E259C0 /* Build configuration list for PBXNativeTarget "SelectPhoto" */;
+			buildPhases = (
+				F7BA7178C48CBFD18EB726A8 /* [CP] Check Pods Manifest.lock */,
+				10B5A67F218D9F0300E259C0 /* Sources */,
+				10B5A680218D9F0300E259C0 /* Frameworks */,
+				10B5A681218D9F0300E259C0 /* Resources */,
+				0B916652D0E05E1F7E838144 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectPhoto;
+			productName = SelectPhoto;
+			productReference = 10B5A683218D9F0300E259C0 /* SelectPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B5A67B218D9F0300E259C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = applee;
+				TargetAttributes = {
+					10B5A682218D9F0300E259C0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 10B5A67E218D9F0300E259C0 /* Build configuration list for PBXProject "SelectPhoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B5A67A218D9F0300E259C0;
+			productRefGroup = 10B5A684218D9F0300E259C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B5A682218D9F0300E259C0 /* SelectPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B5A681218D9F0300E259C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B5A693218D9F0800E259C0 /* LaunchScreen.storyboard in Resources */,
+				10B5A690218D9F0800E259C0 /* Assets.xcassets in Resources */,
+				2E06E5C7219570B5004EA076 /* SPImagePickerController.bundle in Resources */,
+				10B5A68E218D9F0300E259C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B916652D0E05E1F7E838144 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SelectPhoto/Pods-SelectPhoto-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelectPhoto/Pods-SelectPhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BA7178C48CBFD18EB726A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelectPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B5A67F218D9F0300E259C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFD3B4121944F6A000B5A0C /* SelectSuccessCell.m in Sources */,
+				10B5A69F218DA0EA00E259C0 /* SelectRootViewController.m in Sources */,
+				2E06E5BC219570B5004EA076 /* SPAssetCell.m in Sources */,
+				2E06E5C0219570B5004EA076 /* SPPhotoPreviewController.m in Sources */,
+				2EFD3B4421951935000B5A0C /* SPBottomView.m in Sources */,
+				10B5A68B218D9F0300E259C0 /* ViewController.m in Sources */,
+				2E06E5C1219570B5004EA076 /* SPProgressView.m in Sources */,
+				2E06E5BD219570B5004EA076 /* SPAssetModel.m in Sources */,
+				2E06E5C6219570B5004EA076 /* SPLocationManager.m in Sources */,
+				2EFD3B352194124F000B5A0C /* SPCropView.m in Sources */,
+				2EFD3B3821943333000B5A0C /* SPNavToolBar.m in Sources */,
+				2E06E5C5219570B5004EA076 /* SPImagePickerController.m in Sources */,
+				2E06E5BF219570B5004EA076 /* UIView+SPLayout.m in Sources */,
+				10B5A696218D9F0800E259C0 /* main.m in Sources */,
+				2EFD3B3B219448FD000B5A0C /* SelectSuccessViewController.m in Sources */,
+				2E06E5C4219570B5004EA076 /* SPPhotoPreviewCell.m in Sources */,
+				2E06E5C2219570B5004EA076 /* SPImageManager.m in Sources */,
+				2E06E5BE219570B5004EA076 /* NSBundle+SPImagePicker.m in Sources */,
+				2E06E5BB219570B5004EA076 /* SPImageCropManager.m in Sources */,
+				2EFD3B3E21944D84000B5A0C /* LxGridViewFlowLayout.m in Sources */,
+				10B5A688218D9F0300E259C0 /* AppDelegate.m in Sources */,
+				2E06E5C3219570B5004EA076 /* SPPhotoPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10B5A68C218D9F0300E259C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B5A68D218D9F0300E259C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10B5A691218D9F0800E259C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B5A692218D9F0800E259C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B5A697218D9F0800E259C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/qrh/Desktop/SelectPhoto/SelectPhoto/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10B5A698218D9F0800E259C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/qrh/Desktop/SelectPhoto/SelectPhoto/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B5A69A218D9F0800E259C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D773ED5C4BDDCFB44CE423 /* Pods-SelectPhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS6N7VDU66;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/qrh/Desktop/SelectPhoto/SelectPhoto/PrefixHeader.pch;
+				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qrh.SelectPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B5A69B218D9F0800E259C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBA89CA74DB8E706650379C /* Pods-SelectPhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS6N7VDU66;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/qrh/Desktop/SelectPhoto/SelectPhoto/PrefixHeader.pch;
+				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qrh.SelectPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B5A67E218D9F0300E259C0 /* Build configuration list for PBXProject "SelectPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B5A697218D9F0800E259C0 /* Debug */,
+				10B5A698218D9F0800E259C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B5A699218D9F0800E259C0 /* Build configuration list for PBXNativeTarget "SelectPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B5A69A218D9F0800E259C0 /* Debug */,
+				10B5A69B218D9F0800E259C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B5A67B218D9F0300E259C0 /* Project object */;
+}
